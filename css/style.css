@@ -1,0 +1,114 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --color-red-novum:#A02C59;
+  --blue-hard-color-novum:#3D51AA;
+  --blue-medium-color-novum:#4C7CC6;
+  --blue-light-color-novum:#6A97D8;
+  --red-lettering-color:#C83873;
+  --light-blue-nav:#85D6F3;
+}
+
+body,html {
+  background-color: #a0a0a0;
+
+}
+
+nav {
+  background:var(--color-red-novum);
+  height: 60px;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  padding:0px 10px;
+}
+
+nav h1 {
+  color:#fff;
+}
+
+.nav__ul {
+  list-style: none;
+  display: flex;
+  gap:20px;
+}
+
+.nav__li:hover > a {
+  text-decoration: underline;
+}
+
+.nav__li-a {
+  text-decoration: none;
+  color:#fff;
+}
+
+.banner {
+  position: relative;
+  width:100%;
+  height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+}
+
+.banner__box-data {
+  display: flex;
+  width: 85%;
+  height: 80%;
+  background-color: var(--color-red-novum);
+  border-radius: 10px;
+}
+
+.banner__img {
+  height: 100%;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.banner__data {
+  padding: 10px;
+  padding-left: 20px;
+  width: 100%;
+  height: 70%;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.banner__h2 {
+  font-size: 3em;
+  color:#fff;
+}
+
+.banner__p {
+  color:#fff;
+  font-size: 1.4em;
+}
+
+.banner__networks {
+  display: flex;
+  width: 100%;
+  gap:20px;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.banner__networks .network-youtube {
+  font-size:4em;
+  color:#bbb;
+}
+
+.banner__networks .network-facebook {
+  font-size:4em;
+  color:#bbb;
+}
+
+.banner__networks .network-telegram {
+  font-size: 4em;
+  color:#bbb;
+}
+
