@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <title>Novum - creciendo juntos</title>
     <meta charset="UTF-8">
@@ -12,32 +12,27 @@
   </head>
   <body>
     <nav>
-      <h1 class="nav__h1">NOVUM - creciendo juntos</h1>
+      <h1 class="nav__h1" onclick="window.location.reload()">NOVUM - creciendo juntos</h1>
       <ul class="nav__ul">
-        <li class="nav__li"><a class="nav__li-a" href="#">Inicio</a></li>
-        <li class="nav__li"><a class="nav__li-a" href="#">Redes</a></li>
+        <li class="nav__li"><a class="nav__li-a" href="#" onclick="scrollBy(0,0)">Inicio</a></li>
+        <li class="nav__li"><a class="nav__li-a" href="#redes">Redes</a></li>
         <li class="nav__li"><a class="nav__li-a" href="#">FAQ</a></li>
         <li class="nav__li"><a class="nav__li-a" href="#">Grupo de  Telegram</a></li>
       </ul>
     </nav>
-    <section class="banner">
+    <section id="inicio" class="banner">
       <div class="banner__box-data">
         <img class="banner__img" src="./img/logo.jpeg" alt="">
         <div class="banner__data">
           <h2 class="banner__h2">Bienvenidos</h2>
           <p class="banner__p">¡Te damos una cálida bienvenida a la vibrante comunidad de Novum! Aquí, te brindamos un espacio único donde puedes explorar, compartir conocimientos y, por supuesto, enriquecerte a través del aprendizaje continuo.<br>
             En Novum, no solo celebramos la pasión por Linux y el compromiso con el software libre, sino que también abrazamos con entusiasmo la colaboración entre comunidades.</p>
-          <div class="banner__networks">
-            <a class="network-youtube" href="https://www.youtube.com/@Novum.creciedno.juntos"><img class="banner__network" width="50px" src="./img/icons/youtube.svg" alt=""></a>
-            <a class="network-facebook" href="#"><img class="banner__network width="50px" src="./img/icons/facebook.svg" alt=""></a>
-            <a class="network-telegram" href="#"><img class="banner__network width="50px" src="./img/icons/telegram.svg" alt=""></a>
-          </div>
         </div>
       </div>
     </section>
-    <section class="networks">
+    <section id="redes" class="networks">
       <div class="networks__box-data">
-        <h2 class="">Redes</h2>
+        <h2 class="">Redes - comunidad</h2>
         <div class="networks__box-info">
           <p>La comunidad de NOVUM se extiende a través de varios grupos en diversas redes, ofreciéndote la valiosa oportunidad de conectarte y participar activamente con otros entusiastas del software libre. Además, te brinda la posibilidad de interactuar con usuarios provenientes de diversas comunidades de Linux, fomentando así un ambiente enriquecedor y diverso donde puedes compartir conocimientos, experiencias y descubrir nuevas perspectivas sobre el mundo del software de código abierto.</p>
           <div class="networks__box-links">
@@ -51,9 +46,43 @@
         </div>
       </div>
     </section>
-    <section>
-      
+    <section class="faq">
+      <div class="faq__box-container">
+        <h2>Preguntas frecuentes</h2>
+        <div class="accordion">
+          <details>
+            <summary>
+              ¿Como surgio esto?
+            </summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur architecto sed non nemo voluptate voluptatem qui culpa quisquam exercitationem neque, cupiditate dicta provident repellendus aliquid odio doloribus reprehenderit libero nihil voluptatibus? Voluptate totam ratione, quas deserunt accusamus et officia rem iusto numquam facilis nisi animi reiciendis sed perspiciatis obcaecati minima! Quasi facere maxime sit? At, optio sequi? Qui impedit neque magni quasi cumque nesciunt sit quos voluptate eligendi cum, ducimus amet, voluptatem repudiandae recusandae accusamus animi inventore ex expedita. Dolore reprehenderit placeat doloremque temporibus labore maxime molestiae eius debitis, earum quasi distinctio ut repudiandae illo totam quidem explicabo aspernatur fugiat?</p>
+          </details>
+          <details>
+            <summary>
+              ¿Cuál es nuestro objetivo?
+            </summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur architecto sed non nemo voluptate voluptatem qui culpa quisquam exercitationem neque, cupiditate dicta provident repellendus aliquid odio doloribus reprehenderit libero nihil voluptatibus? Voluptate totam ratione, quas deserunt accusamus et officia rem iusto numquam facilis nisi animi reiciendis sed perspiciatis obcaecati minima! Quasi facere maxime sit? At, optio sequi? Qui impedit neque magni quasi cumque nesciunt sit quos voluptate eligendi cum, ducimus amet, voluptatem repudiandae recusandae accusamus animi inventore ex expedita. Dolore reprehenderit placeat doloremque temporibus labore maxime molestiae eius debitis, earum quasi distinctio ut repudiandae illo totam quidem explicabo aspernatur fugiat?</p>
+          </details>
+          <details>
+            <summary>
+              ¿Quienes va dirigido?
+            </summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur architecto sed non nemo voluptate voluptatem qui culpa quisquam exercitationem neque, cupiditate dicta provident repellendus aliquid odio doloribus reprehenderit libero nihil voluptatibus? Voluptate totam ratione, quas deserunt accusamus et officia rem iusto numquam facilis nisi animi reiciendis sed perspiciatis obcaecati minima! Quasi facere maxime sit? At, optio sequi? Qui impedit neque magni quasi cumque nesciunt sit quos voluptate eligendi cum, ducimus amet, voluptatem repudiandae recusandae accusamus animi inventore ex expedita. Dolore reprehenderit placeat doloremque temporibus labore maxime molestiae eius debitis, earum quasi distinctio ut repudiandae illo totam quidem explicabo aspernatur fugiat?</p>
+          </details>
+          <details>
+            <summary>
+              ¿Cómo contribuir?
+            </summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur architecto sed non nemo voluptate voluptatem qui culpa quisquam exercitationem neque, cupiditate dicta provident repellendus aliquid odio doloribus reprehenderit libero nihil voluptatibus? Voluptate totam ratione, quas deserunt accusamus et officia rem iusto numquam facilis nisi animi reiciendis sed perspiciatis obcaecati minima! Quasi facere maxime sit? At, optio sequi? Qui impedit neque magni quasi cumque nesciunt sit quos voluptate eligendi cum, ducimus amet, voluptatem repudiandae recusandae accusamus animi inventore ex expedita. Dolore reprehenderit placeat doloremque temporibus labore maxime molestiae eius debitis, earum quasi distinctio ut repudiandae illo totam quidem explicabo aspernatur fugiat?</p>
+          </details>
+          <details>
+            <summary>
+              Ayuda!!! nose cuales son las preguntas frecuentes?
+            </summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur architecto sed non nemo voluptate voluptatem qui culpa quisquam exercitationem neque, cupiditate dicta provident repellendus aliquid odio doloribus reprehenderit libero nihil voluptatibus? Voluptate totam ratione, quas deserunt accusamus et officia rem iusto numquam facilis nisi animi reiciendis sed perspiciatis obcaecati minima! Quasi facere maxime sit? At, optio sequi? Qui impedit neque magni quasi cumque nesciunt sit quos voluptate eligendi cum, ducimus amet, voluptatem repudiandae recusandae accusamus animi inventore ex expedita. Dolore reprehenderit placeat doloremque temporibus labore maxime molestiae eius debitis, earum quasi distinctio ut repudiandae illo totam quidem explicabo aspernatur fugiat?</p>
+          </details>
+        </div>
+      </div>
     </section>
-    <script src="./js/main.js"></script>
+    <script src="./js/main.js" type="module"></script>
   </body>
 </html>
